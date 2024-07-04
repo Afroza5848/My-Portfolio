@@ -1,5 +1,6 @@
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
+
 const Navbar = () => {
     return (
         <div className="lg:max-w-7xl mx-auto py-5 absolute top-0 left-0 right-0">
@@ -24,10 +25,10 @@ const Navbar = () => {
                             tabIndex={0}
                             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
                             <li><a className="text-xl font-semibold roboto">Home</a></li>
-                            <li><a className="text-xl font-semibold roboto">About</a></li>
-                            <li><a className="text-xl font-semibold roboto">Skills</a></li>
-                            <li><a className="text-xl font-semibold roboto">Projects</a></li>
-                            <li><a className="text-xl font-semibold roboto">Contact</a></li>
+                            <li><a href="#about" className="text-xl font-semibold roboto">About</a></li>
+                            <li><a href="#skill" className="text-xl font-semibold roboto">Skills</a></li>
+                            <li><a href="#project" className="text-xl font-semibold roboto">Projects</a></li>
+                            <li><a href="#contact" className="text-xl font-semibold roboto">Contact</a></li>
                            
                         </ul>
                     </div>
@@ -35,11 +36,11 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
-                        <li><a className="text-xl font-medium text-white roboto">Home</a></li>
-                        <li><a className="text-xl font-medium text-white roboto">About</a></li>
-                        <li><a className="text-xl font-medium text-white roboto">Skills</a></li>
-                        <li><a className="text-xl font-medium text-white roboto">Projects</a></li>
-                        <li><a className="text-xl font-medium text-white roboto">Contact</a></li>
+                        <li><a  className="text-xl font-medium text-white roboto">Home</a></li>
+                        <li><a href="#about" className="text-xl font-medium text-white roboto">About</a></li>
+                        <li><a href="#skill" className="text-xl font-medium text-white roboto">Skills</a></li>
+                        <li><a href="#project" className="text-xl font-medium text-white roboto">Projects</a></li>
+                        <li><a href="#contact" className="text-xl font-medium text-white roboto">Contact</a></li>
                     </ul>
                 </div>
                 <div className="navbar-end space-x-3 ">

@@ -8,7 +8,7 @@ const About = () => {
                 {/* <div className="flex items-center justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
                     <img src={aboutImag} alt="" className="object-contain h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128" />
                 </div> */}
-                <section className=" py-12">
+                <section id='about' className=" py-12">
                     <div className="container mx-auto px-6">
                         <div className='text-center my-7'>
                             <h3 className='text-2xl font-semibold'>Get Know More</h3>

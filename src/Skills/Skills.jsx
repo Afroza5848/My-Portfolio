@@ -18,7 +18,7 @@ import github from '../assets/image/github-logo-DkTr3Tul.png'
 
 const Skills = () => {
     return (
-        <section className="bg-cyan-950 py-12">
+        <section id="skill" className="bg-cyan-950 py-12">
             <div className="max-w-7xl mx-auto px-6">
                 <div className='text-center'>
                 <h2 className="text-5xl font-bold text-center bg-gradient-to-r from-cyan-400 via-pink-500 to-cyan-400 inline-block text-transparent bg-clip-text roboto mb-8">My Skills</h2>
