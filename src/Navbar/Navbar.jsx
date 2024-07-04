@@ -2,11 +2,11 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const Navbar = () => {
     return (
-        <div className="max-w-7xl mx-auto py-5 fixed top-0 left-0 right-0">
+        <div className="lg:max-w-7xl mx-auto py-5 absolute top-0 left-0 right-0">
             <div className="navbar ">
                 <div className="navbar-start">
                     <div className="dropdown">
-                        <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+                        <div tabIndex={0} role="button" className="btn bg-white lg:hidden">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 className="h-5 w-5"
@@ -28,7 +28,7 @@ const Navbar = () => {
                             <li><a className="text-xl font-semibold roboto">Skills</a></li>
                             <li><a className="text-xl font-semibold roboto">Projects</a></li>
                             <li><a className="text-xl font-semibold roboto">Contact</a></li>
-
+                           
                         </ul>
                     </div>
                     <a className=" text-4xl text-white font-bold">Afroza<span className="bg-gradient-to-r from-cyan-400 via-pink-400 to-cyan-400 inline-block text-transparent bg-clip-text roboto">Khatun</span></a>
@@ -42,7 +42,7 @@ const Navbar = () => {
                         <li><a className="text-xl font-medium text-white roboto">Contact</a></li>
                     </ul>
                 </div>
-                <div className="navbar-end space-x-3">
+                <div className="navbar-end space-x-3 ">
                     <a href="https://www.linkedin.com/in/afroza5848/" className="px-5 py-2 bg-cyan-500 rounded"><FaLinkedinIn></FaLinkedinIn></a>
                     <a href="https://github.com/Afroza5848" className="px-5 py-2 bg-cyan-500 rounded"><FaGithub></FaGithub></a>
                 </div>

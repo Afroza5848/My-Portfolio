@@ -22,9 +22,6 @@ const Banner = () => {
 
                     <p className='mb-6 text-2xl text-pink-300 font-semibold'>{typeEffect}  <Cursor cursorColor='cyan' /></p>
                     
-                    {/* <div className=''>
-                        <button className="btn roboto text-xl">Resume <IoDownloadSharp className='mb-1' /></button>
-                    </div> */}
                     <div className='space-x-4'>
                         <a href="https://drive.google.com/file/d/1OhN79epCtxO4Z6qbOMzDTD60-uOCMf1z/view?usp=sharing" target='_blank' className="relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out border border-cyan-500 rounded-md shadow-md group">
                             <span className="absolute inset-0 flex items-center justify-center w-full h-full text-xl text-white duration-300 -translate-x-full bg-cyan-500 group-hover:translate-x-0 ease">
