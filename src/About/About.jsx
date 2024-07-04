@@ -33,8 +33,13 @@ const About = () => {
                                 <p className="text-lg text-gray-100">
                                     When I am not coding, you can find me <span className='font-bold bg-gradient-to-r from-cyan-400 via-pink-400 to-cyan-400 inline-block text-transparent bg-clip-text roboto'>writing Blog</span>. I am always eager to learn new technologies and stay updated with the latest trends in the tech world. Lets create something amazing together!
                                 </p>
+                                <h2 className='text-2xl mt-4'>Education</h2>
+                            <p>Degree (BBA)</p>
                             </div>
+                            
+
                         </div>
+                        
                     </div>
                 </section>
             </div>
